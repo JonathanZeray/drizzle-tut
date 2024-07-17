@@ -1,0 +1,23 @@
+{
+  "name": "drizzle-tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.32.0",
+    "postgres": "^3.4.4",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.23.0"
+  }
+}
