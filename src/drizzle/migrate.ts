@@ -6,7 +6,7 @@ import postgres from "postgres";
 import { userTable } from "./schema";
 
 // for migrations
-const migrationClient = postgres(process.env.DATABASE_URL as string, {
+const migrationClient = postgres(process.env.DB_URL as string, {
   max: 1,
 });
 
